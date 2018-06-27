@@ -89,7 +89,17 @@ body{
 	font-size: 17px;
 	margin-top: 7px;
 	margin-left: 4px;
+	transition: all .255s ease;
 }
+
+.but1 button,li{
+	transition: all .255s ease;
+}
+
+.but1 button,li:hover{
+	transform: scale(1.2);
+}
+
 
 .downloadbut1 {
 	background: #d35400;
@@ -405,4 +415,301 @@ body{
 
 .wtf2-link{
 	background-position: left -266px center;
+}
+
+@media (max-width: 950px) {
+    .nav{
+        float: none;
+        width: 100%;
+    }
+
+    #nav {
+	width: 100%;
+	background: #46243c;
+	font-size: 17px;
+
+}
+
+	#nav ul{
+	margin: 0px;
+	margin-left: 0px;
+}
+
+	.nav li{
+	font-size: 18px;
+	padding-top: 14px;
+	padding-right: 50px;
+	font-weight: 400;
+	text-align: center;
+	margin-left: 0px;
+	}
+
+	.nav a{
+	font-size: 18px;
+	text-align: center;
+	margin-left: 0px;
+	}
+
+	.but1 {
+	width: 180%;
+	height: 15%;
+	background: #4dae96;
+	border-radius: 6px;
+	border: none;
+	padding: 15px 0;
+	font-size: 18px;
+	margin-top: 7px;
+	margin-left: 0px;
+}
+
+	#logo {
+	width:100%;
+	padding-top:17px;
+	display: inline-block;
+	margin-left: 0%;
+	}
+
+	#logo img{
+	display: block;
+ 	margin: 0 auto;	
+	
+	}
+
+	#logo h1 {
+	display: none;
+	}
+
+	.container {
+	width: 60%;
+	margin: 0 auto;
+	}
+
+	.video1{
+	margin-top: 40px;
+	margin-left: 0px;
+
+	}
+
+    .phone_img{
+	display: none;
+	}
+
+	#b1 {
+	width: 100%;
+	height: 35%;
+	}
+
+	.b1 {
+    padding: 100px 0;
+	}
+
+	#b1 h2{
+	width: 100%;
+	padding-top: 65.5px;
+	margin-left: 0px;
+	font-size: 28px;
+	}
+	.b1text{
+	width: 100%;
+	margin-top: 47px;
+	margin-left: 0px;
+	font-family: 'Myriad Pro';
+	color:#ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+	text-align: center;
+	}
+
+
+	#b2 {
+    width: 100%;
+    height: 60%;
+	}
+
+	.b2 {
+    padding: 40px 0;
+	}
+
+	#b2maintext{
+	font-family: 'Myriad Pro';
+	color:#ffffff;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 21px;
+	text-align: center;
+	width: 100%;
+	margin-top: 5%;
+	margin-left: 0px;
+	
+	}
+
+
+	.downloadbut1 {
+	background: #d35400;
+	border: none;
+    width: 100%;
+    height: 20%;
+    padding: 20px 0;
+	border-radius: 9px;
+	font-family: 'Myriad Pro';
+	color:#ffffff;
+	font-size: 25px;
+	margin-left: 0%;
+	margin-top: 10%;
+	box-shadow: 0 10px 0 #b4491f;
+	}
+
+
+
+	.downloadbut2 {
+	background: #d35400;
+	border: none;
+    width: 100%;
+    height: 20%;
+	padding: 20px 0;
+	border-radius: 9px;
+	font-family: 'Myriad Pro';
+	color:#ffffff;
+	font-size: 25px;
+	margin-left: 0%;
+	margin-top: 10%;
+	box-shadow: 0 10px 0 #b4491f;
+	}
+
+
+	#b3 {
+    width: 100%;
+    height: 100%;
+	}
+
+
+	#b3 h2{
+	font-family: 'Myriad Pro';
+	color:  #ffffff;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 45px;
+	margin-left: 0px;
+	width: 100%;
+	}
+	.b3text{
+	font-family: 'Myriad Pro';
+	color:#ffffff;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 21px;
+	text-align: center;	
+	margin-left: 0px;
+	margin-top: -8px;
+	width: 100%;
+	}
+
+	.b2text1{
+	border: none;
+	font-family: 'Myriad Pro';
+	color:#ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+	text-align: center;
+	width: 100%;
+
+	}
+
+	.b2text2{
+	border: none;
+	font-family: 'Myriad Pro';
+	color:#ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+	text-align: center;
+	width: 100%;
+	}
+
+	.b2text3{
+	border: none;
+	font-family: 'Myriad Pro';
+	color:#ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+	text-align: center;
+	width: 100%;
+	}
+
+.item1 {
+	font-size: 17px;
+	width: 100%;
+	padding: 0px 0px;
+}
+.item1 p {
+	margin-top: 92px;
+	margin-bottom: 92px;
+	margin-left: 0px;
+}
+
+
+.item1 img{
+	display: block;
+ 	margin: 0 auto;
+}
+
+.item2 {
+	font-size: 17px;
+	width: 100%;
+	padding: 0px 0px;
+}
+.item2 p {
+	margin-top: 94px;
+	margin-bottom: 92px;
+	margin-left: 0px;
+}
+
+
+.item2 img{
+	display: block;
+ 	margin: 0 auto;
+}
+
+.item3 {
+	font-size: 17px;
+	width: 100%;
+	padding: 0px 0px;
+}
+.item3 p {
+	margin-top: 92px;
+	margin-left: 0px;
+}
+
+
+.item3 img{
+	display: block;
+ 	margin: 0 auto;
+}
+
+
+.video1{
+	margin-top: 40px;
+	margin-left: -8%;
+
+}
+
+.footertext{
+	font-family: 'Myriad Pro';
+	color:#2c3e50;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+
+
+
 }
